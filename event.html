@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+
+  <button id="btn">hello world</button>
+  <br/>
+  <button id="btn2">hello people</button>
+   
+    <script>
+      
+      let button = document.getElementById("btn")
+      var button2 = document.getElementById("btn2")
+      button.addEventListener('click',() => {
+          console.log("the btn was click");
+      })
+      button2.addEventListener('dblclick',() => {
+        console.log("button2 clicked")
+      })
+       
+    </script>
+</body>
+</html>
