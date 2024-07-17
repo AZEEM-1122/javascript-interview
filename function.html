@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+      <script>
+          // FUNCTION 
+              function sum(){
+               console.log('hello world')
+              }
+              sum();
+
+         // FUNCTION WITH PARAMETERS AND ARGUMENTS
+            function add(a,b){
+               console.log(a + b)
+            }
+            add(10,10);
+
+         // ANONYMOUS FUNCTION
+           let anon = function (){
+             console.log("hello people")
+           }
+           anon();
+
+         // IMMEDIATELY INVOKED FUNCTION
+            (function immd(){
+               console.log('fun was run')
+            })();
+
+         // ARROW FUNCTION 
+            let arrow = () => {
+               console.log('arrow function');
+            }
+            arrow();
+
+         // FUNCTION WITH RETURN VALUE
+           function ret(x,y){
+             return x + y
+           }
+           let x = ret(20,20)
+           console.log(x)
+      </script>
+</body>
+</html>
